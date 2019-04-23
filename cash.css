@@ -1,0 +1,123 @@
+
+
+
+body{
+
+
+margin-left:100px;
+margin-right:100px;
+background-color: skyblue;
+}
+
+.maincontent {
+background-color:white;
+padding:20px;
+
+}
+
+.newp {
+background-color:white;
+padding:20px;
+display:none;
+color:black;
+
+}
+
+
+footer{
+
+background-color:grey;
+height:50px;
+text-align:center;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+header{
+
+background-color:grey;
+height:80px;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+.container-fluid{
+
+background-color:grey;
+height:80px;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+.newhead{
+background-color:grey;
+height:150px;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+hr{color:green;}
+
+.t1{ text-decoration:underline;margin-bottom:10px; text-align:center;}
+
+.table1 tr td{width:100%;}
+
+.input1{width:200px; height:20px; color:black;}
+.input2{width:22%; height:20px; color:black;}
+
+.table2 {width:100%;}
+.table2 th { background-color:black; color:white; border:1px solid white;  padding:10px; }
+.table2 tr td { background-color:white; color:black; border:1px solid black;  padding:10px; }
+#table2{width:100%;}
+#table2 th{ background-color:black; color:white; border:1px solid white;  padding:10px; }
+
+
+.jstd{border:1px solid black; padding:10px;}
+.table3 {width:100%;}
+.table3 tr td{ background-color:white; color:black; border:1px solid black;  padding:10px; }
+
+.table3 tr .spread_td{border-bottom:1px solid white; }
+
+.table3 tr #special_td{ text-align:center;}
+
+.sub{float:right; background-color:darkgrey; color:white;margin-right:4px;}
+
+.yes{ background-color:darkgrey; color:white;}
+
+
+#confirm {
+            display: none;
+            background-color: #514E61;
+            color: #FFFFFF;
+            border: 1px solid #aaa;
+            position: fixed;
+            width: 450px;
+            
+			left:35%;
+			
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+         }
+		 
+		 
+		 #confirm button {
+            background-color: #48E5DA;
+            display: inline-block;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            padding: 5px;
+            text-align: center;
+            width: 80px;
+            cursor: pointer;
+         }
+         #confirm .message {
+            text-align: center;
+         }
+
+
+

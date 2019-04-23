@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<head>
+<title>Online Cash Memo Template</title>
+
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+   <link rel="stylesheet" href="cash.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+
+</head>
+
+<body>
+
+<header>
+  <h1 class="t1">Online Cash Memo Template</h1><br><br> 
+</header>
+
+
+<form action="" name="myForm" onsubmit="myFunction2(); return false;" >
+
+<div class="container-fluid">
+  
+  <table class="table1">
+  <tr><td>Date  :: <input class="input1" type="date" name="date1" /></td>
+  <td>No: <input class="input1" type="number" name="no" /></td></tr>
+   <tr><td>Name: <input class="input2" type="text" name="cname" /></td></tr>
+  </table>
+
+</div>
+
+<div class="maincontent">
+
+ 
+ 
+  <div id="confirm"><br>
+         <div class="message">Please Check at Least One Row to Delete.</div><br>
+         <input type="button" class="yes" value="OK" /><br><br>
+      </div>
+
+
+ <div>
+ <input type="button" id="add" class="sub" value="Add More" />
+ <input type="button"  id="del" class="sub" value="Delete" /> 
+</div>
+ <br>
+
+ <br>
+ 
+
+<table class="table2">
+
+<thead>
+ <tr>
+ <th>No.</th>
+ <th>Item Name</th>
+  <th>QTY</th>
+  <th>Price/Unit</th>
+    
+	 
+ </tr>
+ </thead>
+<tbody>
+ <tr>
+ <td><input type="checkbox" name="record" class="record"></td>
+ <td><input type="text" name="item_name[]" class="item_name" /></td>
+ <td><input type="number" name="qty" class="qty" /></td>
+ <td><input type="number" name="price" class="price" /></td>
+ 
+ 
+ </tr>
+ </tbody>
+
+ </table>
+ 
+ 
+<br>
+<input class="sub" type="submit" name="submit" value="Submit"/>
+<input class="sub" type="reset" value="Reset"/>
+<br>
+
+</div>
+
+</form>
+
+
+<div class="newp">
+<hr><hr>
+
+<div class="newhead">
+<h2 class="t1">Online Cash Memo Template</h2>
+  <table class="table1">
+  <tr><td>Date  :: <input class="input1" readonly type="date" id ="date2" name="date1" value="" /></td>
+  <td>No: <input class="input1" readonly type="number" id="no1"  value="" /></td></tr>
+   <tr><td>Name: <input class="input2"  id="cname1" readonly type="text"  value="" /></td></tr>
+  </table>
+  
+  
+  </div>
+
+<br><br>
+<table id="table2">
+
+<thead>
+ <tr>
+ <th>No.</th>
+ <th>Item Name</th>
+ <th>QTY</th>
+ <th>Price/Unit</th>
+ <th>Total</th>
+	 
+ </tr>
+ </thead>
+ 
+ 
+<tbody>
+
+
+ 
+ </tbody>
+
+ </table>
+
+ <form name="form2">
+<table class="table3">
+ <tr>
+ <td colspan="5" class="spread_td"></td>
+ <td>Total</td>
+ <td><input readonly type="number" id="tt" value=""/> </td>
+ 
+ </tr>
+  <tr>
+ <td colspan="5" class="spread_td" id="special_td"><input  type="text" name="Sign" value=""/>
+<br> ________________________________________ <br>Signature</td>
+ <td>Advance</td>
+ <td><input  type="number" name="advance"  id="advance" /></td>
+ 
+ </tr>
+  <tr>
+ <td colspan="5"></td>
+ <td>Remaining</td>
+ <td><input  readonly type="text" id="remaining" name="remaining" value ="0" /></td>
+ 
+ </tr>
+ 
+ 
+</table>
+
+
+  </form>
+  
+  <br><button class="sub" onclick = "window.print();">Click Here to Print</button>
+ <br><br>
+  
+
+</div>
+
+
+
+ <script src="cash.js"></script>
+ 
+ 		
+			
+			
+			
+			
+ 
+ <footer>
+<p>©2018 Jannatul Ferdaus. All Rights Reserved.</p>
+</footer>
+ 
+
+</body>
+
+
+</html>        
